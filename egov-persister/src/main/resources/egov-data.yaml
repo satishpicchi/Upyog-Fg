@@ -1,0 +1,12 @@
+---
+serviceMaps:
+  serviceName: satish
+  mappings:
+  - version: '1'
+    name: sai
+    fromTopic: satish
+    description: test
+    isTransaction: true
+    isBatch: false
+    queryMaps:
+
