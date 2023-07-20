@@ -39,7 +39,7 @@ public class PersisterMessageListener implements MessageListener<String, Object>
 	@Override
 	public void onMessage(ConsumerRecord<String, Object> data) {
 		String rcvData = null;
-		
+		System.out.println("hello satish"+data);
 		try {
 			rcvData = objectMapper.writeValueAsString(data.value());
 		} catch (JsonProcessingException e) {
