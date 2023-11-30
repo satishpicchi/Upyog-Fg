@@ -1,0 +1,35 @@
+{
+  "tenantId": "pgcitya",
+   "moduleName": "egov-location",
+  "TenantBoundary": [
+  {
+      "hierarchyType": {
+              "code": "ADMIN",
+              "name": "ADMIN"
+      },
+       "boundary": {
+                "id": 1,
+                "boundaryNum": 1,
+                "name": "CityA",
+                "localname": "CityA",
+                "longitude": null,
+                "latitude": null,
+                "label": "City",
+                "code": "pg.citya",
+                "children": [
+                 {
+                 "id": 1,
+                "boundaryNum": 1,
+                "name": "CityA1",
+                "localname": "CityA1",
+                "longitude": null,
+                "latitude": null,
+                "label": "ward",
+                "code": "pg.citya",
+                "children":[]
+                        }]
+        }
+
+    }
+ ]
+}
